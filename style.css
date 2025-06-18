@@ -1,0 +1,174 @@
+@font-face {
+    font-family: inter;
+    src: url(/fonts/Inter-SemiBold.woff);
+}
+
+@font-face {
+    font-family: signature;
+    src: url(/fonts/BiroScriptPlus.woff);
+}
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+  color: white;
+}
+
+
+header {
+    background-color: black;
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-bar {
+    font-size: 4rem;
+    position: absolute;
+    cursor: pointer;
+    right: 2rem;
+}
+
+#logo img {
+    margin: 0 auto;
+    height: 12rem;
+    padding: 1rem;
+  }
+
+  .initial-banner {
+    position: relative;
+    height: 60vw;
+  }
+
+  .initial-text {
+    position: absolute;
+    padding-left: 5rem;
+    display: flex;
+    gap: 35rem;
+    top: 40rem;
+  }
+
+  .initial-text h1 {
+    font-family: inter;
+    font-weight: bold;
+    font-size: 100px;
+    line-height: 6.5rem;
+    color: rgba(255, 255, 255, 0.979);
+    text-align: right;
+    animation: fadeIn 1.0s ease-in;
+  }
+
+  .initial-text p {
+    font-family: signature;
+    font-size: 55px;
+    padding-top: 8rem;
+  }
+
+  @keyframes fadeIn {
+    from {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+
+
+  .presentation p{
+    font-family: inter;
+    width: 70rem;
+    margin: 5rem;
+    font-size: 5rem;
+    text-align: left;
+  }
+
+  .backing img {
+    display: inline;
+    height: 5rem;
+    margin-left: 7rem;
+    margin-bottom: 10rem;
+  }
+
+  
+
+  .choose {
+    font-family: inter;
+    text-align: center;
+    }
+
+  .choose h2 {
+    font-size: 3rem;
+  }
+
+  .choose h1 {
+    font-size: 4.5rem;
+  }
+
+
+  .all-bond img {
+    height: 25rem;
+    margin: 1rem;
+    margin-top: 4rem;
+    display: inline;
+    cursor: pointer;
+    border-radius: 2rem;
+    transition: all .40s;
+  }
+
+  .all-bond img:hover{
+    transform: scale(0.9);
+}
+
+
+
+.bond-items {
+  display: none;
+  margin-top: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.bond-item {
+  display: inline-block;
+  margin: 1rem;
+  background: #111;
+  padding: 1rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.bond-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.bond-item:hover {
+  transform: scale(1.05);
+}
+
+.bond-item p {
+  margin: 0.5rem 0;
+}
+
+.bond-item button {
+  background-color: #02A28F;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
