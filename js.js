@@ -23,28 +23,37 @@ const bondKits = {
         { name: '007 Edition', image: 'images/perf-red.png', price: 'R$ 640,00' }
     ]
 };
-;
+
+let currentVisibleBond = null; 
+
 allBond.forEach(img => {
     img.addEventListener('click', () => {
         const bondId = img.id;
-        const kit = bondKits[bondId];
 
-        bondItems.innerHTML = ''
+        if (currentVisibleBond === bondId) {
+            bondItems.innerHTML = '';
+            bondItems.style.display = 'none';
+            currentVisibleBond = null;
+        } else {
+            const kit = bondKits[bondId];
+            bondItems.innerHTML = '';
 
-        if (kit) {
-            kit.forEach(item => {
-                const div = document.createElement('div');
-                div.className = 'bond-item';
-                div.innerHTML = `
-                    <img src="${item.image}" alt="${item.name}">
-                    <p>${item.name}</p>
-                    <p>${item.price}</p>
-                    <button>Adicionar ao carrinho</button>
-                `;
-                bondItems.appendChild(div);
-            });
+            if (kit) {
+                kit.forEach(item => {
+                    const div = document.createElement('div');
+                    div.className = 'bond-item';
+                    div.innerHTML = `
+                        <img src="${item.image}" alt="${item.name}">
+                        <p>${item.name}</p>
+                        <p>${item.price}</p>
+                        <button>Adicionar ao carrinho</button>
+                    `;
+                    bondItems.appendChild(div);
+                });
 
-            bondItems.style.display = 'block';
+                bondItems.style.display = 'block';
+                currentVisibleBond = bondId;
+            }
         }
     });
 });

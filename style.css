@@ -89,8 +89,15 @@ header {
     font-family: inter;
     width: 70rem;
     margin: 5rem;
-    font-size: 5rem;
-    text-align: left;
+    margin-left: 30rem;
+    font-size: 4rem;
+    text-align: right;
+  }
+
+
+
+  .backing {
+    margin-left: 60rem;
   }
 
   .backing img {
@@ -164,9 +171,9 @@ header {
 }
 
 .bond-item button {
-  background-color: #02A28F;
+  background-color: #ffffff;
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   cursor: pointer;
