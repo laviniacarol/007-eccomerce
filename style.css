@@ -179,3 +179,48 @@ header {
   cursor: pointer;
 }
 
+.special-offer {
+  max-height: 55rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.special-offer img:not(#arrow-down) {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.special-offer {
+  color: #bdbdbd;
+}
+
+.special-offer h1 {
+  font-family: inter;
+  position: absolute;
+  font-size: 4.2rem;
+  padding-top: 16rem;
+
+}
+
+.special-offer h2 {
+  font-family: signature;
+  position: absolute;
+  padding-top: 20rem;
+  font-weight: lighter;
+  font-size: 5.2rem;
+  padding-left: 7rem;
+
+}
+
+#arrow-down {
+  position: absolute;
+  left: 17%;
+  top: 50%;
+  cursor: pointer;
+  transform: translateX(-50%);
+  width: 5rem;
+  color: #bdbdbd;
+  height: 5rem;
+}
+
