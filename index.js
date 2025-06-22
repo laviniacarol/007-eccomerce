@@ -1,6 +1,8 @@
 const allBond = document.querySelectorAll('.all-bond img');
 const bondItems = document.getElementById('bond-items');
 
+
+
 const bondKits = {
     "first-bond": [
         { name: 'Patek Philippe', image: 'images/watch-blue.png', price: 'R$ 900,00' },
@@ -21,8 +23,15 @@ const bondKits = {
         { name: 'Patek Philippe', image: 'images/watch-red.png', price: 'R$ 880,00' },
         { name: 'Monblanc', image: 'images/pen-red.png', price: 'R$ 320,00' },
         { name: '007 Edition', image: 'images/perf-red.png', price: 'R$ 640,00' }
-    ]
-};
+    ],
+  "five-bond": [
+    { name: 'Patek Philippe', image: 'images/watch-lemon.jpg', price: 'R$ 1305,00' },
+    { name: 'Montblanc', image: 'images/pen-lemon.png', price: 'R$ 350,00' },
+    { name: '007 Edition', image: 'images/perf-lemon.png', price: 'R$ 720,00' }
+]
+    
+
+    };
 
 let currentVisibleBond = null; 
 
@@ -46,7 +55,7 @@ allBond.forEach(img => {
                         <img src="${item.image}" alt="${item.name}">
                         <p>${item.name}</p>
                         <p>${item.price}</p>
-                        <button>Adicionar ao carrinho</button>
+                        <button>Add to cart</button>
                     `;
                     bondItems.appendChild(div);
                 });
@@ -56,4 +65,6 @@ allBond.forEach(img => {
             }
         }
     });
+
+ 
 });

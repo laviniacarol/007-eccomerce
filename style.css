@@ -131,18 +131,20 @@ header {
     cursor: pointer;
     border-radius: 2rem;
     transition: all .40s;
+    padding-bottom: 3rem;
   }
 
   .all-bond img:hover{
     transform: scale(0.9);
-}
 
+}
 
 
 .bond-items {
   display: none;
   margin-top: 2rem;
   text-align: center;
+  padding-bottom: 3rem;
   color: white;
 }
 
@@ -222,5 +224,66 @@ header {
   width: 5rem;
   color: #bdbdbd;
   height: 5rem;
+  transition: opacity 0.3 ease;
 }
 
+#arrow-down:hover {
+  opacity: 0.5;
+}
+
+.special-itens {
+  display: flex;
+  gap: 10rem;
+  padding-left: 20rem;
+  padding-bottom: 5rem;
+}
+
+.special-itens .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.special-itens img {
+  height: 20rem;
+}
+
+.special-itens img:not(#perfume) {
+  padding-top: 7rem;
+  height: 25rem;
+}
+
+#perfume {
+  padding-top: 7rem;
+  height: 25rem;
+}
+
+.price {
+  color: #ccc;
+  font-size: 1.6rem;
+  margin: 1rem 0;
+  font-family: inter;
+}
+
+.cart-button {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform .30s;
+}
+
+.cart-button:hover {
+  transform: scale(0.9);
+}
+
+.footer {
+  padding: 1rem;
+  background-color: #111;
+  font-family: signature;
+  font-size: 2rem;
+}
