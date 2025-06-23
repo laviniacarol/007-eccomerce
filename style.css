@@ -287,3 +287,117 @@ header {
   font-family: signature;
   font-size: 2rem;
 }
+
+@media (max-width: 1366px) {
+  .initial-text {
+    gap: 10rem;
+    top: 25rem;
+    padding-left: 2rem;
+  }
+
+  .initial-text h1 {
+    font-size: 4rem;
+  }
+
+  .presentation p {
+    margin-left: 6rem;
+    font-size: 2.2rem;
+  }
+
+  .backing {
+    margin-left: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .special-itens {
+    gap: 3rem;
+    padding-left: 4rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .all-bond img {
+    height: 16rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .initial-text {
+    flex-direction: column;
+    top: 15rem;
+    gap: 2rem;
+    padding-left: 1rem;
+  }
+
+  .initial-text h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: left;
+  }
+
+  .initial-text p {
+    font-size: 1.5rem;
+  }
+
+  .presentation p {
+    font-size: 1.6rem;
+    margin: 2rem;
+    text-align: left;
+  }
+
+  .special-itens {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+    gap: 2rem;
+  }
+
+  .all-bond img {
+    height: 10rem;
+  }
+
+  .special-offer h1,
+  .special-offer h2 {
+    font-size: 2rem;
+    position: static;
+    text-align: center;
+  }
+
+  #arrow-down {
+    top: auto;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .footer {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .initial-banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .all-bond img {
+    height: 8rem;
+  }
+
+  .special-itens img {
+    height: 15rem;
+  }
+
+  .presentation p {
+    font-size: 1.2rem;
+  }
+
+  .cart-button {
+    padding: 0.4rem 1rem;
+    font-size: 0.9rem;
+  }
+} 
