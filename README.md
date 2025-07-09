@@ -1,4 +1,7 @@
-Imagens do projeto.
+
+▶︎ LINK: https://007-eccomerce.netlify.app/
+*SEM MEDIA QUERIES*
+📷 Imagens do projeto:
 ![page1](https://github.com/user-attachments/assets/402ed90d-a269-4836-b42e-bc5591b5cbd5)
 ![page2](https://github.com/user-attachments/assets/c643d5b4-55af-4b72-b0d3-f75d798d6dd4)
 ![page4](https://github.com/user-attachments/assets/1fd8a26f-0b3d-4fbb-905c-d92fd8f80944)
