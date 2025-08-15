@@ -56,7 +56,12 @@ header {
   background-color: #111;
   border-radius: 3px;
   z-index: 100; 
+}
 
+
+  #menu {
+  display: none;
+  
 }
 
 #menu a {
