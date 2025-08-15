@@ -67,6 +67,10 @@ header {
   cursor: pointer;
 }
 
+#menu a:hover {
+  color: grey;
+}
+
 .hidden {
   display: none;
 }
@@ -219,6 +223,7 @@ header {
   max-height: 55rem;
   overflow: hidden;
   position: relative;
+  margin-top: 5rem;
 }
 
 .special-offer img:not(#arrow-down) {
