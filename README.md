@@ -2,9 +2,8 @@
 ▶︎ LINK: https://007-eccomerce.netlify.app/ <br>
 <br> *SEM MEDIA QUERIES* <br>
 📷 Imagens do projeto:
-![page1](https://github.com/user-attachments/assets/402ed90d-a269-4836-b42e-bc5591b5cbd5)
-![page2](https://github.com/user-attachments/assets/c643d5b4-55af-4b72-b0d3-f75d798d6dd4)
-![page4](https://github.com/user-attachments/assets/1fd8a26f-0b3d-4fbb-905c-d92fd8f80944)
-![page5](https://github.com/user-attachments/assets/ec8e6a6f-36a5-4cc4-9a3a-2f3f0fdb9d70)
-![page6](https://github.com/user-attachments/assets/257ef938-578c-4792-ac5a-aa81e5befc3d)
-![page7](https://github.com/user-attachments/assets/6aafe0f9-10d3-4811-99a3-cdc72d4c072f)
+<img width="1840" height="966" alt="Captura de tela de 2025-08-15 13-46-34" src="https://github.com/user-attachments/assets/dd34f61f-c0b0-4fcc-a902-e004ed92c039" />
+<img width="1835" height="801" alt="Captura de tela de 2025-08-15 13-46-54" src="https://github.com/user-attachments/assets/f9548d03-928c-41c0-af59-3898842ab4a6" />
+<img width="1835" height="962" alt="Captura de tela de 2025-08-15 13-47-10" src="https://github.com/user-attachments/assets/d2b6941f-cf44-49cb-a033-b9fbcd837977" />
+<img width="1840" height="873" alt="Captura de tela de 2025-08-15 13-47-36" src="https://github.com/user-attachments/assets/8b8b3f9e-060f-4d26-99bf-25a5a99f6629" />
+<img width="1841" height="669" alt="Captura de tela de 2025-08-15 13-47-49" src="https://github.com/user-attachments/assets/9799795e-1f23-4415-b805-ad888e4701b5" />
