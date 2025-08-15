@@ -23,18 +23,52 @@ body {
 
 
 header {
-    background-color: black;
-    display: flex;
-    height: 4rem;
-    align-items: center;
-    justify-content: center;
+  background-color: black;
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem; 
+  position: relative; 
+}
+
+#logo img {
+  height: 3rem;
 }
 
 .menu-bar {
-    font-size: 4rem;
-    position: absolute;
-    cursor: pointer;
-    right: 2rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+#menu {
+  position: absolute;
+  top: 4rem;        
+  right: 2rem;      
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 12rem;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: #111;
+  border-radius: 3px;
+  z-index: 100; 
+
+}
+
+#menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  font-family: inter;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
 }
 
 #logo img {
